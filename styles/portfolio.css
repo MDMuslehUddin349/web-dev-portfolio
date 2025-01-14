@@ -17,10 +17,10 @@
 .dark-1{
     color: #181818;
 }
-.dark-2 ,.skill-description {
+.dark-2 ,.skill-description,.experience-title,.resume-culumn-title {
     color: #474747;
 }
-.dark-3{
+.dark-3,.experience-description,.experience-subtite{
     color: #757575;
 }
 .btn-primary{
@@ -126,4 +126,38 @@ main section{
     padding: 35px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.resume .section-title{
+    text-align: center;
+    margin-bottom: 113px;
+}
+hr{
+    margin-top:  30px; ;
+    margin-bottom: 30px ;
+}
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"] input[type="email"] footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 }
