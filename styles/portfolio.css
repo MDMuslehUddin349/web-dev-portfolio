@@ -17,10 +17,10 @@
 .dark-1{
     color: #181818;
 }
-.dark-2 ,.skill-description,.experience-title,.resume-culumn-title {
+.dark-2 ,.skill-description,.experience-title,.resume-culumn-title ,.footer-column-a>p{
     color: #474747;
 }
-.dark-3,.experience-description,.experience-subtite{
+.dark-3,experience-description,.experience-subtite,.skill-description{
     color: #757575;
 }
 .btn-primary{
@@ -32,6 +32,16 @@
    border-radius: 5px;
    border: none;
     
+}
+.btn-contact{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    background: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A ; 
+    margin-left: 30px;
 }
 .section-title{
     font-size: 35px;
@@ -105,22 +115,34 @@ main section{
 }
 /* about styles */
 .about{
+    
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
     
 }
 .about .about-items{
+    
     display: flex;
     justify-content: space-around;
 }
-.item-description{
+.item-description,.dark-2{
     font-weight: 600;
 }
+
+.about-t{
+    padding: 80px ;
+    border: 2px solid black;
+    background-color: #FFFFFF;}
+    
+
 /* skills-section styles */
 .skills-container{
     display: flex;
     gap: 24px;
+}
+.section-description{
+    margin: 30px;
 }
 .skill{
     padding: 35px;
@@ -137,6 +159,9 @@ main section{
     text-align: center;
     margin-bottom: 113px;
 }
+
+
+
 hr{
     margin-top:  30px; ;
     margin-bottom: 30px ;
@@ -147,17 +172,34 @@ footer{
     display: flex;
     gap: 100px;
 }
-.footer-column{
-    width: 50%;
+.footer-column-a a {
+    gap: 30px;
+    margin-left: 30px;
 }
-footer input[type="text"] input[type="email"] footer textarea{
-    height: 64px;
-    border-radius: 5px;
-    background-color: white;
-    display: block;
-    width: 100%;
-    padding: 10px 20px;
-    margin-bottom: 24px;
-    border: none;
 
-}
+
+ .footer-column-b{
+    display: flex;
+    flex-direction: column;
+    border: none;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: none;
+ }
+ .btn-primary-m{
+    background-color: #FD6E0A;
+   font-weight: bold;
+   font-size: 20px;
+   color: #FFFFFF;
+   padding: 18px 35px;
+   border-radius: 5px;
+   border: none;
+    
+ }
+ 
+ 
+ 
+ 
