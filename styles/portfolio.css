@@ -31,8 +31,13 @@
    padding: 18px 35px;
    border-radius: 5px;
    border: none;
+   text-decoration: underline none;
+   
+   
     
 }
+
+
 .btn-contact{
     font-weight: bold;
     font-size: 20px;
@@ -75,13 +80,16 @@ nav{
 nav ul{
     display: flex;
     align-items: center;
+    list-style: none;
 }
 nav ul li{
-    list-style: none;
+    
+    text-decoration: none;
     margin-right: 50px;
 }
 nav li a{
-    text-decoration: none;
+    cursor: pointer;
+
     text size: 20px;
 }
 /* banner styles */
@@ -117,20 +125,23 @@ main section{
 .about{
     
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 150px 200px;
     text-align: center;
     
 }
 .about .about-items{
     
     display: flex;
+    
     justify-content: space-around;
 }
+ 
 .item-description,.dark-2{
     font-weight: 600;
 }
 
 .about-t{
+    
     padding: 80px ;
     border: 2px solid black;
     background-color: #FFFFFF;}
